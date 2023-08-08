@@ -1,2 +1,3 @@
 ${PODS_ROOT}/Target Support Files/Pods-bySquareTest/Pods-bySquareTest-frameworks.sh
+${BUILT_PRODUCTS_DIR}/LZCompression/LZCompression.framework
 ${BUILT_PRODUCTS_DIR}/LzmaSDK-ObjC/LzmaSDK_ObjC.framework

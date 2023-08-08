@@ -1,16 +1,20 @@
 PODS:
+  - LZCompression (1.1.0)
   - LzmaSDK-ObjC (2.1.1)
 
 DEPENDENCIES:
+  - LZCompression
   - LzmaSDK-ObjC
 
 SPEC REPOS:
   trunk:
+    - LZCompression
     - LzmaSDK-ObjC
 
 SPEC CHECKSUMS:
+  LZCompression: fa4596d37d3f7ead3156c78d63031df34a6195df
   LzmaSDK-ObjC: 6c68c37743a658fc9a4c7b70f7d6045b587aa42b
 
-PODFILE CHECKSUM: 2cfd0ee409d6b826ccf82c121e6f5859997805f1
+PODFILE CHECKSUM: 6e5ec3a2d4a1c9ccb9783cf3f8fdeea01d8a6f22
 
 COCOAPODS: 1.11.2

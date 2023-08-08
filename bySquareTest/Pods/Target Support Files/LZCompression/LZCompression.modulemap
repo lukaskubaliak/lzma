@@ -1,0 +1,6 @@
+framework module LZCompression {
+  umbrella header "LZCompression-umbrella.h"
+
+  export *
+  module * { export * }
+}

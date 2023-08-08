@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		783E74442A6D1B2F008CE9BA /* NSString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783E74432A6D1B2F008CE9BA /* NSString.swift */; };
+		7845FE352A8178F7009798D3 /* LZString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7845FE342A8178F7009798D3 /* LZString.swift */; };
 		78AB1B9D2A3E1F5800C93155 /* liblzma.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 78AB1B9C2A3E1F5800C93155 /* liblzma.tbd */; };
 		78AB1BA12A3EFE5200C93155 /* SWCompression in Frameworks */ = {isa = PBXBuildFile; productRef = 78AB1BA02A3EFE5200C93155 /* SWCompression */; };
 		78AB770D2A346BB900E19289 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78AB770C2A346BB900E19289 /* AppDelegate.swift */; };
@@ -23,11 +25,16 @@
 		78D1FBED2A49E61100C391B7 /* test.py in Resources */ = {isa = PBXBuildFile; fileRef = 78D1FBEC2A49E61100C391B7 /* test.py */; };
 		78E931032A4A17DB006D7906 /* DataCompression in Frameworks */ = {isa = PBXBuildFile; productRef = 78E931022A4A17DB006D7906 /* DataCompression */; };
 		78E931052A4A1CCD006D7906 /* liblzma.5.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 78E931042A4A1CCD006D7906 /* liblzma.5.tbd */; };
+		78E931082A4B6BFC006D7906 /* PayModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E931072A4B6BFC006D7906 /* PayModel.swift */; };
+		78E9310A2A4DD1C3006D7906 /* UInt8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E931092A4DD1C3006D7906 /* UInt8.swift */; };
+		78E9310F2A557BC7006D7906 /* ConversionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E9310E2A557BC7006D7906 /* ConversionManager.swift */; };
 		8576F4B40BC8AD733E70DF79 /* Pods_bySquareTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53E3CA9823BF7125B8FB31A2 /* Pods_bySquareTest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		53E3CA9823BF7125B8FB31A2 /* Pods_bySquareTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bySquareTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		783E74432A6D1B2F008CE9BA /* NSString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSString.swift; sourceTree = "<group>"; };
+		7845FE342A8178F7009798D3 /* LZString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LZString.swift; sourceTree = "<group>"; };
 		78AB1B9C2A3E1F5800C93155 /* liblzma.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = liblzma.tbd; path = usr/lib/liblzma.tbd; sourceTree = SDKROOT; };
 		78AB1B9E2A3E1FA600C93155 /* bySquareTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bySquareTest-Bridging-Header.h"; sourceTree = "<group>"; };
 		78AB77092A346BB900E19289 /* bySquareTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bySquareTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,6 +50,9 @@
 		78D1FBE72A473A4100C391B7 /* compressed.lzma */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = compressed.lzma; sourceTree = "<group>"; };
 		78D1FBEC2A49E61100C391B7 /* test.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = test.py; sourceTree = "<group>"; };
 		78E931042A4A1CCD006D7906 /* liblzma.5.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = liblzma.5.tbd; path = usr/lib/liblzma.5.tbd; sourceTree = SDKROOT; };
+		78E931072A4B6BFC006D7906 /* PayModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayModel.swift; sourceTree = "<group>"; };
+		78E931092A4DD1C3006D7906 /* UInt8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UInt8.swift; sourceTree = "<group>"; };
+		78E9310E2A557BC7006D7906 /* ConversionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionManager.swift; sourceTree = "<group>"; };
 		9D87E32978771426C726EF4F /* Pods-bySquareTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bySquareTest.release.xcconfig"; path = "Target Support Files/Pods-bySquareTest/Pods-bySquareTest.release.xcconfig"; sourceTree = "<group>"; };
 		D16B301E8CC3BE41CF96EBB6 /* Pods-bySquareTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bySquareTest.debug.xcconfig"; path = "Target Support Files/Pods-bySquareTest/Pods-bySquareTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -86,6 +96,8 @@
 		78AB770B2A346BB900E19289 /* bySquareTest */ = {
 			isa = PBXGroup;
 			children = (
+				78E9310D2A557BBA006D7906 /* Managers */,
+				78E931062A4B6BF3006D7906 /* Model */,
 				78AB77222A348EFF00E19289 /* Extensions */,
 				78AB770C2A346BB900E19289 /* AppDelegate.swift */,
 				78AB770E2A346BB900E19289 /* SceneDelegate.swift */,
@@ -98,6 +110,7 @@
 				78AB1B9E2A3E1FA600C93155 /* bySquareTest-Bridging-Header.h */,
 				78D1FBE72A473A4100C391B7 /* compressed.lzma */,
 				78D1FBEC2A49E61100C391B7 /* test.py */,
+				7845FE342A8178F7009798D3 /* LZString.swift */,
 			);
 			path = bySquareTest;
 			sourceTree = "<group>";
@@ -114,8 +127,26 @@
 			isa = PBXGroup;
 			children = (
 				78AB77242A348F2600E19289 /* String.swift */,
+				78E931092A4DD1C3006D7906 /* UInt8.swift */,
+				783E74432A6D1B2F008CE9BA /* NSString.swift */,
 			);
 			path = Foundation;
+			sourceTree = "<group>";
+		};
+		78E931062A4B6BF3006D7906 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				78E931072A4B6BFC006D7906 /* PayModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		78E9310D2A557BBA006D7906 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				78E9310E2A557BC7006D7906 /* ConversionManager.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 		88D0566C8974E21B5CB4325B /* Frameworks */ = {
@@ -266,8 +297,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7845FE352A8178F7009798D3 /* LZString.swift in Sources */,
+				78E9310A2A4DD1C3006D7906 /* UInt8.swift in Sources */,
 				78AB77112A346BB900E19289 /* ViewController.swift in Sources */,
 				78AB770D2A346BB900E19289 /* AppDelegate.swift in Sources */,
+				78E9310F2A557BC7006D7906 /* ConversionManager.swift in Sources */,
+				783E74442A6D1B2F008CE9BA /* NSString.swift in Sources */,
+				78E931082A4B6BFC006D7906 /* PayModel.swift in Sources */,
 				78AB77252A348F2600E19289 /* String.swift in Sources */,
 				78AB770F2A346BB900E19289 /* SceneDelegate.swift in Sources */,
 				78AB77212A34748F00E19289 /* Base32hex.swift in Sources */,

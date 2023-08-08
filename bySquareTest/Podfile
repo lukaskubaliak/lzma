@@ -8,5 +8,6 @@ target 'bySquareTest' do
   # Pods for bySquareTest
 
   pod 'LzmaSDK-ObjC', :inhibit_warnings => true
+  pod 'LZCompression'
 
 end
